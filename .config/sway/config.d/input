@@ -20,10 +20,11 @@ exec_always {
 
 # # Toggle between keyboard layouts. This example has the "us" and "gb"
 # # keyboard layouts, and uses Alt+Shift to toggle between them.
-# input "type:keyboard" {
-#     xkb_layout "us,gb"
-#     xkb_options "grp:alt_shift_toggle"
-# }
+input "type:keyboard" {
+    xkb_layout "us"
+    xkb_variant "intl,nodeadkeys"
+    xkb_options "caps:escape,lv3:ralt_switch"
+}
 # # Assign the same binding to "pkill -RTMIN+1 waybar" to send signal to
 # # the Waybar keyboard module (so the module shows the updated layout).
 # # This example uses Alt + left Shift.

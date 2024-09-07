@@ -30,7 +30,7 @@ MOD+Return
 MOD+q
 
 # Application menu - Fuzzel:
-MOD+d
+MOD+space
 
 # Activities:
 MOD+p
@@ -86,7 +86,7 @@ MOD+e layout toggle split
 MOD+Shift+space floating toggle
 
 # change focus between tiling / floating windows:
-MOD+space focus mode_toggle
+MOD+t focus mode_toggle
 
 # focus the parent container:
 MOD+a focus parent

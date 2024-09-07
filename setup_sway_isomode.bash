@@ -3,7 +3,7 @@ username="$1"
 
 # Clone the repo
 echo "Cloning the EOS Community Sway repo..."
-git clone https://github.com/EndeavourOS-Community-Editions/sway.git
+git clone https://github.com/keyduq/endeavour-os-sway-setup.git
 
 # Install the custom package list
 echo "Installing needed packages..."
